@@ -1,0 +1,7 @@
+Metric,Value
+Total Rows,32581
+Total Columns,12
+Target Column,loan_status
+Missing Values,4011
+Numerical Columns,8
+Categorical Columns,4
