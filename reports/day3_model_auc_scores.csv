@@ -1,0 +1,3 @@
+Model,AUC Score
+Logistic Regression,0.8765383176744527
+XGBoost,0.9509001268445251
