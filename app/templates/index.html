@@ -17,34 +17,42 @@
                 <div class="col-md-4"><input name="loan_percent_income" class="form-control mb-2" placeholder="Loan % of Income" required></div>
                 <div class="col-md-4"><input name="cb_person_cred_hist_length" class="form-control mb-2" placeholder="Credit History Length" required></div>
 
+                <!-- Updated dropdowns -->
                 <div class="col-md-4">
-                    <select name="person_home_ownership" class="form-control mb-2">
-                        <option value="RENT">RENT</option>
-                        <option value="OWN">OWN</option>
-                        <option value="MORTGAGE">MORTGAGE</option>
+                    <select name="person_home_ownership" class="form-control mb-2" required>
+                        <option value="RENT">🏠 Rent</option>
+                        <option value="OWN">🔑 Own</option>
+                        <option value="MORTGAGE">🏡 Mortgage</option>
+                        <option value="OTHER">❓ Other</option>
                     </select>
                 </div>
 
                 <div class="col-md-4">
-                    <select name="loan_intent" class="form-control mb-2">
-                        <option value="EDUCATION">EDUCATION</option>
-                        <option value="VENTURE">VENTURE</option>
-                        <option value="PERSONAL">PERSONAL</option>
+                    <select name="loan_intent" class="form-control mb-2" required>
+                        <option value="EDUCATION">🎓 Education</option>
+                        <option value="HOMEIMPROVEMENT">🔧 Home Improvement</option>
+                        <option value="MEDICAL">🩺 Medical</option>
+                        <option value="VENTURE">🚀 Venture</option>
+                        <option value="PERSONAL">👤 Personal</option>
                     </select>
                 </div>
 
                 <div class="col-md-4">
-                    <select name="loan_grade" class="form-control mb-2">
-                        <option value="A">A</option>
-                        <option value="B">B</option>
-                        <option value="C">C</option>
+                    <select name="loan_grade" class="form-control mb-2" required>
+                        <option value="A">Grade A</option>
+                        <option value="B">Grade B</option>
+                        <option value="C">Grade C</option>
+                        <option value="D">Grade D</option>
+                        <option value="E">Grade E</option>
+                        <option value="F">Grade F</option>
+                        <option value="G">Grade G</option>
                     </select>
                 </div>
 
                 <div class="col-md-4">
-                    <select name="cb_person_default_on_file" class="form-control mb-2">
-                        <option value="Y">Y</option>
-                        <option value="N">N</option>
+                    <select name="cb_person_default_on_file" class="form-control mb-2" required>
+                        <option value="Y">Yes (has defaulted)</option>
+                        <option value="N">No</option>
                     </select>
                 </div>
             </div>
